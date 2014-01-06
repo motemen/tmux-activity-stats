@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 KEYS  = %w(cwd title cmd)
 stays = Hash.new { |h,k| h[k] = Hash.new(0) }
 
